@@ -1,0 +1,507 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Font Style */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  .D {
+    height: auto;
+    background-color: #ffff;
+    color: white;
+    display: flex;
+    padding: 20px;
+  }
+  
+  .nav-logo {
+    height: 105px;
+    width: 100px;
+  }
+  
+  .logo {
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .nav-logo1 {
+    height: 96px;
+    width: 86px;
+  }
+
+  .logo1 {
+    background-image: url("pt.ravishankar.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .nav-logo2 {
+    margin-top: 20px;
+    height: 50px;
+    width: 96px;
+  }
+
+  .logo2 {
+    background-image: url("g20-logo.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .border {
+    border: 1.5px solid transparent;
+  }
+  
+  .nav-address {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .add-first,
+  .add-second {
+    color: #003366;
+    font-size: 1rem;
+  }
+  
+  .add-third {
+    display: flex;
+    color: #003366;
+    font-size: 1rem;
+  }
+  
+  .p1 {
+    color: #050505;
+  }
+  
+  .p2 {
+    color: #fc0a0a;
+    margin-left: 3px;
+  }
+  
+  .p3 {
+    color: #050505;
+    margin-left: 11px;
+  }
+  
+  .p4 {
+    color: #fc0a0a;
+    margin-left: 3px;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #35b3da;
+    padding: 10px 0;
+  }
+  
+  .nav-search {
+    margin-top: 2%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f4f4f4;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    border-color: #003366;
+  }
+  
+  .search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+  }
+  
+  .search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #ffff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+  }
+  
+  nav .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  nav ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 40px 0;
+  }
+  
+  section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  section p, section ul {
+    text-align: center;
+    font-size: 1.2em;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+
+/* About us Styling */
+.about p{
+  text-align: left;
+}
+
+.about h4 {
+  margin-left: 10%;
+}
+
+/* Courses Styling*/
+.course p {
+text-align: left;
+}
+
+.coursetype {
+  font-size: 12.5px;
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+}
+
+.coursetype h3{
+  text-align: left;
+}
+
+.coursetype a{
+  text-align: left;
+  display: block;
+}
+
+  /* Facilities Styling */
+  .facilitie {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .facilitie li {
+    text-align: left;
+    display: block;
+  }
+
+  .facilitie ol li::before {
+    content: '→';
+    padding-right: 5px;
+  }
+  
+  /* Department Styling */
+  .deptcont {
+    font-size: 11px;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+  }
+  
+  .deptcont a {
+    text-align: left;
+    display: block;
+  }
+  
+  .deptcont ul a::before {
+    content: '→';
+    padding-right: 5px;
+  }
+  
+  .deptcont h1 {
+    margin-top: 5px;
+    border: 1px solid black;
+  }
+
+  /* csit Styling */
+  .dept-pic {
+    height: 361px;
+    width: 100%;
+  }
+  
+  .pic {
+    background-image: url("pic.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+.s {
+  display: flex;
+}
+
+.notice-container {
+  background-color: #d8d8d8;
+  margin-top: 15px;
+  margin-left: 20px;
+  height: 400px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notice-container h2 {
+  color: #ffffff;
+  text-align: left;
+  background-color: #003366;
+}
+
+.notice-container li {
+  display: block;
+}
+
+/* Container for the images (box) */
+.slideshow-container {
+  margin-top: 15px;
+  margin-left: 10%;
+  width: 800px; /* Set the width of the box */
+  height: 400px; /* Set the height of the box */
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #ccc; /* Optional border for the box */
+}
+
+/* Create the images stack */
+.slides {
+  display: flex;
+  width: 400%; /* 4 images, each taking up 1/4th of the space */
+  height: 100%;
+  animation: slide 20s infinite; /* Total duration for the slideshow */
+}
+
+.slides img {
+  width: 25%; /* Each image takes up 25% of the container */
+  height: 100%;
+  object-fit: cover; /* Ensures images cover the container */
+}
+
+/* Keyframes for slide animation */
+@keyframes slide {
+  0% {
+    transform: translateX(0%); /* Start from the first image */
+  }
+  15% {
+    transform: translateX(0%); /* Hold the first image */
+  }
+  30% {
+    transform: translateX(-25%); /* Slide to the second image */
+  }
+  45% {
+    transform: translateX(-25%); /* Hold the second image */
+  }
+  60% {
+    transform: translateX(-50%); /* Slide to the third image */
+  }
+  75% {
+    transform: translateX(-50%); /* Hold the third image */
+  }
+  90% {
+    transform: translateX(-75%); /* Slide to the forth image */
+  }
+  100% {
+    transform: translateX(-75%); /* Hold the forth image */
+  }
+}
+
+  .csit p{
+    text-align: left;
+  }
+
+.csit h3 {
+  margin-top: 15px;
+  margin-left: 10%;
+}
+
+  .csit h4 {
+    margin-left: 10%;
+    color: #003366;
+  }
+  
+  /* Contact Styling */
+  .contact {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+  }
+  
+  .contact h1 {
+    text-align: left;
+  }
+  
+  .contact a {
+    text-align: left;
+    display: block;
+  }
+
+  /* Footer Styling */
+  footer {
+    background-color: #35b3da;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Mobile Devices */
+  @media (max-width: 600px) {
+    .D {
+      flex-direction: column;
+      padding: 20px;
+      align-items: center;
+    }
+  
+    .nav-logo {
+      height: 80px;
+      width: 80px;
+    }
+  
+    .logo {
+      background-size: contain;
+      height: 80px;
+      width: 80px;
+    }
+  
+    .nav-search {
+      margin-left: 10%;
+      width: 120px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      padding: 10px 0;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    nav ul li a {
+      font-size: 1rem;
+    }
+  
+    section h2 {
+      font-size: 1.5em;
+    }
+  
+    footer p {
+      font-size: 0.9em;
+    }
+  }
+  
+  /* Tablet Devices */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .D {
+      flex-direction: row;
+      padding: 20px;
+    }
+  
+    .nav-search {
+      margin-left: 15%;
+      width: 140px;
+    }
+  
+    .nav-search input {
+      font-size: 1rem;
+    }
+  
+    nav ul {
+      flex-direction: row;
+    }
+  
+    nav ul li {
+      margin: 0 10px;
+    }
+  
+    nav ul li a {
+      font-size: 1.1em;
+    }
+  
+    section h2 {
+      font-size: 1.8em;
+    }
+  
+    footer p {
+      font-size: 1em;
+    }
+  }
+  
+  /* Desktop Devices */
+  @media (min-width: 1025px) {
+    .D {
+      flex-direction: row;
+      padding: 20px;
+    }
+  
+    nav ul {
+      flex-direction: row;
+    }
+  
+    nav ul li {
+      margin: 0 15px;
+    }
+  
+    nav ul li a {
+      font-size: 1.2em;
+    }
+  
+    section h2 {
+      font-size: 2em;
+    }
+  
+    footer p {
+      font-size: 1.2em;
+    }
+  }
+  
